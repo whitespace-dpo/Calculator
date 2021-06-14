@@ -29,6 +29,7 @@ body {
 }
 
 .calculator-row .previous {
+    min-height: 19px;
     padding: 10px;
     padding-bottom: 2px;
     font-size: .8rem;
@@ -67,5 +68,10 @@ button:hover {
 }
 
 .calculator-row-3 .span-2 {
+    border-bottom-right-radius: 10px;
     width: 110px;
+}
+
+.calculator-row-3 .point {
+    border-bottom-left-radius: 10px;
 }
