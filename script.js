@@ -36,6 +36,9 @@ class Calculator {
         const current = parseFloat(this.current)
         if (isNaN(prev) || isNaN(current)) return
         switch (this.operation) {
+            case '%':
+                computation = prev % current
+                break
             case '+':
                 computation = prev + current
                 break
@@ -47,9 +50,6 @@ class Calculator {
                 break
             case '÷':
                 computation = prev / current
-                break
-            case '%':
-                computation = prev % current
                 break
             default:
                 return

@@ -14,6 +14,7 @@ body {
 .calculator {
     margin-top: 80px;
     display: inline-block;
+    padding-bottom: 60px;
 }
 
 .calculator-row {
@@ -38,6 +39,7 @@ body {
 }
 
 .calculator-row .current {
+    min-height: 30px;
     padding: 10px;
     padding-top: 2px;
     font-size: 1.5rem;
